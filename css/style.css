@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14 px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+}
+
+
+/*Start Header styles*/
+
+.header-sec {
+    background-image: url(../images/hbg.png);
+    color: #fff;
+    height: 500px;
+    width: 100%;
+}
+
+.header-sec .navBar {padding: 20px 0  }
+
+.header-sec .navBar .logo {
+    float: left;
+}
+
+.header-sec .navBar .logo img {}
+
+.header-sec .navBar .menu {}
+
+.header-sec .navBar .menu ul {list-style-type: none;float: right;}
+
+.header-sec .navBar .menu ul li {display: inline-block;margin-left: 50px;cursor: pointer;}
+
+.header-sec .navBar .menu ul li a {color: #fff;
+text-decoration: none;}
+
+.header-sec .header-text{
+  margin: 100px auto;
+  width: 600px
+}
+.header-sec .header-text h2{
+  padding: 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 43px;
+  margin-bottom: 20px;
+}
+.header-sec .header-text p{
+  font-size: 14px;
+      color: #ddd;
+}
+.header-sec .header-text button{
+height: 45px;
+width: 200px;
+background: #e84545;
+border: none;
+color: #fff;
+margin-top: 50px
+}
+/*End Header styles*/
+/*Start features Styles*/
+.features{
+  height: 430px;
+  width: 100%;
+  padding: 100px 0;
+  margin-bottom: 100px
+}
+.features .text{
+width: 70%;
+margin: auto;
+}
+.features .text h2{
+  margin: 20px 0;
+  font-size: 35px;
+  color: #e8061b;
+}
+.features .text p{
+  font-size: 15px;
+     color: #999;
+     margin-bottom: 100px;
+
+}
+.features .feat{
+padding: 0 40px;
+display: inline-block;
+margin: auto;
+margin-bottom: 70px
+}
+.features .feat i{
+font-size: 60px;
+color: #e84949
+
+}
+.features .feat h3{
+color: #222;
+margin: 20px 0
+}
+.features .feat p{
+color: #888;
+font-size: 14px
+}
+
+/*End features styles*/
+
+
+/*Start Works styles*/
+.works{
+  margin: auto;
+  margin-bottom: 100px
+}
+.works .work{
+margin-bottom: 100px
+}
+.works .work img{
+  width: 60%
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.works .view{
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  margin-bottom: 50px
+}
+/*End works styles*/
+
+/*Start download styles*/
+.contact{
+
+  width: 100%;
+  padding-bottom: 100px
+}
+.contact h2{
+  font-size: 35px;
+  color: #e74c3c;
+  font-weight: bold;
+
+
+}
+.contact form{
+  margin: 100px 0;
+}
+.contact form input{
+  height: 50px;
+  margin-left: 125px;
+  margin-bottom: 30px;
+  background: #ddd;
+  border: none;
+  width: 30%;
+
+}
+.contact form textarea{
+  height: 200px;
+  background: #ddd;
+  border: none;
+  width: 70%;
+  margin: 0 130px
+}
+
+
+/*End download styles*/
+                    /*Start footer styles*/
+                    .footer-sec {
+
+                    }
+
+                    .footer-sec .footer-top {
+                    background: #e74c3c;
+                    height: 100px;
+                    padding: 50px 0 70px 0
+                    }
+                    .footer-sec .footer-top h3{
+                    color: #fff;
+                    margin-bottom: 20px
+                    }
+                    .footer-sec .footer-top p{
+                    color: #aaa;
+                    font-size: 15px
+                    }
+                    .footer-sec .footer-top .about{
+                    padding: 0 40px
+                    }
+                    .footer-sec .footer-top .icons{
+
+                    }
+                    .footer-sec .footer-top .icons .i{
+                      width: 35px;
+                      height: 35px;
+                      display: inline-block;
+                      border: 2px solid #fff
+                    }
+                    .footer-sec .footer-top .icons .i i{
+                    color: #fff;
+                    font-size: 25px;
+                    line-height: 1.5
+                    }
+
+
+                    /*End footer styles*/
+
+
+/*###########################******************######################3*/
+/*Start framework */
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.all:nth-last-child(2)
+.a-col-1 {width: 8.33%;float: left;}
+.a-col-2 {width: 16.66%;float: left;}
+.a-col-3 {width: 25%;float: left;}
+.a-col-4 {width: 33.33%;float: left;}
+.a-col-5 {width: 41.66%;float: left;}
+.a-col-6 {width: 50%;float: left;}
+.a-col-7 {width: 58.33%;float: left;}
+.a-col-8 {width: 66.66%;float: left;}
+.a-col-9 {width: 75%;float: left;}
+.a-col-10 {width: 83.33%;float: left;}
+.a-col-11 {width: 91.66%;float: left;}
+.a-col-12 {width: 100%;float: left;}
+
+
+.clearfix{
+  clear: both;
+}
